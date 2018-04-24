@@ -9,8 +9,7 @@ const dataToSend = {
     "scroll": 33,
     "light": 0,
     "blink": 0,
-    "updown": 1,
-    "auth": "salt"
+    "updown": 1
 };
 
 /**
