@@ -32,7 +32,7 @@ exports.main = async function(req, res){
     }
     
     try{
-   		if(query.hasOwnProperty('stock'))
+   	if(query.hasOwnProperty('stock'))
        		dataToSend.content += await functions.getStockPrices(query['stock']);
     } catch(e){
     	dataToSend.content += "Error: Stock API";
