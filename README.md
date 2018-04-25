@@ -14,7 +14,7 @@ In this case, the server is hosted in https://google-cloud-project.appspot.com/ 
 
 Notes
 ---------
-In order to get stock pricing information, you must create a file named config.json. The contents of this file should look like this:
+In order to get stock pricing information, you must create a file named config.json in the same directory as index.js. The contents of this file should look like this:
 
 {
 	"ALPHAVANTAGE_API_KEY": "YOUR ALPHAVANTAGE API KEY"
