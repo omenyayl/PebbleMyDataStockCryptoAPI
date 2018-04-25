@@ -40,7 +40,7 @@ exports.main = async function(req, res){
     }
     
     if(query['select'] === '1'){
-		console.log("Select pressed!");
+	console.log("Select pressed!");
     }
     else if(query['up'] === '1'){
         console.log("Up pressed!");
